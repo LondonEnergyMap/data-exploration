@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 # filepath to CLEANED need data
-filepath = 'https://raw.githubusercontent.com/LondonEnergyMap/cleandata/master/need_ldn.csv'
+filepath = 'https://media.githubusercontent.com/media/LondonEnergyMap/cleandata/master/need/need_ldn.csv'
 
 # read csv into dataframe
 df_all = pd.read_csv(filepath)
